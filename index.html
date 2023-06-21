@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vogue Magazine</title>
+    <style>
+        #title:hover{
+            opacity : 50%;
+        }
+
+        .login{
+    animation: changebg 5s ease infinite;
+}
+@keyframes changebg{
+    0%{
+        background-image: url(https://img.freepik.com/free-vector/abstract-white-gold-background_23-2149290000.jpg?w=2000);
+        /*height: 900px;
+        width: 1500px;*/
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(https://img.freepik.com/free-vector/abstract-white-gold-background_23-2149290000.jpg?w=2000);
+        /*height: 900px;
+        width: 1500px;*/
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image:url(https://wallpapercave.com/dwp1x/wp8827679.jpg);
+        /*height: 900px;
+        width: 1500px;*/
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(https://staticg.sportskeeda.com/editor/2021/12/962e1-16401025106278-1920.jpg);
+        /*height: 900px;
+        width: 1500px;*/
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.title{
+    display:flex;
+    flex-direction: row;
+    row-gap: 20px;
+    margin-left: 85%;
+    position: relative;
+}
+
+.title h1:hover{
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+    margin-top: 8px;
+}
+    </style>
+</head>
+<body class="login" style="background-image: url(https://img.freepik.com/free-vector/low-poly-abstract-white-golden-lines-background_1017-26507.jpg); background-size: cover;">
+        <div class="title" style="color:goldenrod">
+            <a href="./loginpage.html"><pre><h1>Log In </h1></pre></a>
+            <h1>|</h1>
+            <a href="./signuppage.html"><pre><h1> Sign Up</h1></pre></a>
+        </div>
+    <center><a href="./home.html"><img id="title"src="https://voguetitle.com/wp-content/uploads/sites/209/2021/10/voguetitlelogo.png" alt="Vogue" style="margin-top: 220px;"></a></center>
+    
+</body>
+</html>

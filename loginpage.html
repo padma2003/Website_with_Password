@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: snow;
+        }
+.inline .box{
+    height:400px;
+    width:500px;
+    border: 3.5px solid orange;
+    
+    margin-left:55%;
+    margin-top: -45%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-color: transparent;
+}
+.box:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    border-color: orange;
+}
+.table{
+    margin-top:10%;
+    margin-left: 14%;
+}
+.button{
+    margin-left: 36%;
+    margin-top:0%;
+}
+.btn{
+            border: 1px solid darkgoldenrod;
+            background-color: rgb(234, 209, 69);
+            opacity: 0.8;
+            padding-right: 25px;
+            padding-left: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 25px;
+        }
+        .btn:hover{
+            color: black;
+            background-color: darkgoldenrod;
+            opacity: 1;
+        }
+.tag{
+    width: 500px;
+    margin-left: 35%;
+}
+
+.tag name{
+    margin-left: 35%;
+}
+.inline{
+    display: flex;
+}
+    </style>
+</head>
+<body>
+    <img class="inline" src="https://i.pinimg.com/564x/59/62/8d/59628d1753024b55947b18eb67cdb697.jpg" alt="Photo" height="800" width="600" style="padding: 10px;box-shadow: 1px 1px 1px 1px black; border-radius: 5%;">
+    <form class="inline" action="./home.html">
+        
+    <div class="box">
+        <center><p style="color:goldenrod; font-size: 50px;">Enter into world of Fashion</p></center>
+        <table class="table" style="font-size: 20px;">
+            <tr>
+                <td class="tag name"><label for="username">User name</label></td><td>:</td><td class="tag"><input type="mail" id="username" name="username"placeholder="Enter your Mail ID" required></td>
+            </tr>
+           
+                <tr>
+                    <td class="tag name"><label for="password">password </label></td><td>:</td><td class="tag"><input type="password" id="password" name="password" placeholder="Enter your Password" required></td>
+                </tr>
+                </table>
+                <div class="button">
+                    <br><br>
+                <a rel="stylesheet" href="./home.html"> <button class="btn" style="font-size: 20px;" type="submit"> Submit</button></a>
+            </div>
+    </div>
+</form>
+</body>
+</html>

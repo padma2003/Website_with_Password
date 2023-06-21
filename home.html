@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        body .area:hover{
+            animation: changecolor 1.5s ease infinite;
+        }
+        @keyframes changecolor{
+            0%{
+                text-shadow: 0 0 5px green;
+            }
+            50%{
+                /*color: rgb(28, 183, 28);
+                border-color: blue;
+                background-color: rgba(245, 245, 220, 0.507);*/
+                text-shadow: 0 0 5px blue;
+            }
+            100%{
+                /*color: salmon;
+                border-color: teal;
+                background-color: rgba(245, 245, 220, 0.507);*/
+                text-shadow: 0 0 5px brown;
+            }
+        }
+        body .text:hover{
+            animation: changeop 2s ease infinite;
+        }
+            @keyframes changeop{
+            0%{
+                /*text-shadow: 0 0 5px green;*/
+                opacity: 0.8;
+                text-shadow: 0 0 3px black;
+            }
+            50%{
+                /*color: rgb(28, 183, 28);
+                border-color: blue;
+                background-color: rgba(245, 245, 220, 0.507);*/
+                /*text-shadow: 0 0 5px blue;*/
+                opacity: 1;
+                text-shadow: 0 0 3px black;
+            }
+            100%{
+                /*color: salmon;
+                border-color: teal;
+                background-color: rgba(245, 245, 220, 0.507);*/
+                /*text-shadow: 0 0 5px brown;*/
+                opacity: 0.8;
+                text-shadow: 0 0 3px black;
+            }
+        }
+        .video{
+        padding: 10px;
+        margin-top: -5%;
+    }
+    body a{
+        text-decoration: none;
+    }
+    </style>
+    <title>Home</title>
+</head>
+<body style="background-image: url(https://img.freepik.com/free-vector/abstract-white-gold-background_23-2149290000.jpg?w=2000); background-size: cover;">
+    
+
+    <center><p style="font-size: 60px; color:darkgoldenrod; margin-top: 1%;text-shadow: 2px 2px 2px 2px black;"><b><i>Tour of Vogue</i></b></p></center>
+    <div class="video">
+        <center>
+              <video width="1100" height="750" autoplay>
+                <source src="Vogue Intro Video.mp4" type="video/mp4">
+                <source src="Vogue Intro Video.mp4" type="video/ogg">
+                Vogue Intro Video
+              </video>
+        </center>
+        </div>
+    
+        <center><p class="text" style="color:goldenrod; font-size: 50px; margin-top: 2.5%;"><b><i>Before It’s in Fashion, It’s in Vogue</i></b></p></center>    
+        <center><p class="text" style="color:goldenrod; font-size: 50px; margin-top: 2.5%;"><b><i>Explore various Catalogues</i></b></p></center>    
+    
+    
+    
+    
+    <marquee behavior="scroll" direction="left"></marquee>
+    <div id="images">
+        <div class="area">
+        <a href="./topstories.html"><img id="c1" class="image" src="https://img.vogue.co.kr/vogue/2022/09/style_6325d02c1a2f4-744x930.jpg" alt="Fashion" height="300" width="250"></a>
+        <h3><center><p id="category" style="color :darkgoldenrod;"><b><i>Top Stories</i></b></p></center></h3>
+        </div>
+        
+        <div class="area">
+        <a href="./fashion.html"><img id="c1" class="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/81823a20-f7ea-4afa-866e-9f1787b042cf/ded82o0-17c725ed-5361-4dfe-aea5-148df07b4ad0.png/v1/fill/w_786,h_1017,q_70,strp/vogue__jungkook_of_bts_by_btsmetal007_ded82o0-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY1NiIsInBhdGgiOiJcL2ZcLzgxODIzYTIwLWY3ZWEtNGFmYS04NjZlLTlmMTc4N2IwNDJjZlwvZGVkODJvMC0xN2M3MjVlZC01MzYxLTRkZmUtYWVhNS0xNDhkZjA3YjRhZDAucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.XR1gljl-ZUPczH-K11yNwD-BQF_bvTzdpK3uRSFPHMg" alt="Fashion" height="300" width="250"></a>
+        <h3><center><p id="category" style="color :darkgoldenrod;"><b><i>Fashion</i></b></p></center></h3>
+        </div>
+
+        <div class="area">
+            <a href="./beauty.html"><img id="c1" class="image" src="https://i.pinimg.com/236x/6d/96/eb/6d96ebf54dd46fba384736eb808a2e3c.jpg" alt="Beauty"></a>
+            <h3><center><p id="category" style="color :darkgoldenrod;"><b><i>Beauty</i></b></p></center></h3>
+        </div>
+
+        <div class="area">
+            <a href="./lifestyle.html"><img id="c1" class="image" src="https://www.discountmags.com/au/shopimages/products/extras/116410-vogue-living-cover-2013-march-12-issue-jpg" alt="Culture" height="300" width="250"></a>
+            <h3><center><p id="category" style="color :darkgoldenrod;"><b><i>Life Style</i></b></p></center></h3>
+        </div>
+    </div>
+</marquee>
+</body>
+</html>

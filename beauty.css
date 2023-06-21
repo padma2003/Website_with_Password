@@ -1,0 +1,106 @@
+.footer{
+    background-color: black;
+    padding-left:70px;
+    padding-top: 40px;
+    margin-top: 10%;
+    padding-bottom: 40px;
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+   
+    
+}
+.f35{
+    height:45px;
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.header {
+    position: fixed;
+    border: 1px solid transparent;
+    width:100%;
+    height: 15%;
+    top:0;
+    background-color:whitesmoke;
+    padding-left:43%;
+    font-size:large;
+}
+
+.top{
+    position: relative;
+    float: left;
+    padding:1px 30px;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    
+}
+.topnav {
+    margin-top: 10%;
+    position: relative;
+     overflow: hidden;
+     background-color:transparent;
+     right: 0;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color:black;
+    font-size: x-large;
+    text-align: center;
+    padding: 1px 20px;
+    text-decoration: none;
+}
+
+
+  .container {
+    position: relative;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+    border: 2px solid gold;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: gold;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

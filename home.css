@@ -1,0 +1,34 @@
+.image{
+    margin-top : 190px;
+    padding : 5px;
+    border: 2px solid gold;
+}
+
+#images{
+    font-size: 45px;
+    display : flex;
+    align-items : center;
+    justify-content : space-evenly;
+    transition: width 1s ease;
+    margin-top: -9%;
+}
+
+#c1:hover{
+    opacity : 45%;
+    box-shadow: 2px 2px 2px 2px black;;
+}
+
+
+
+.title{
+    display:flex;
+    flex-direction: row;
+    row-gap: 20px;
+    margin-left: 85%;
+    position: relative;
+}
+
+.title h1:hover{
+    color: goldenrod;
+}
+
